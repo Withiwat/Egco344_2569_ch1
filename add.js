@@ -73,7 +73,14 @@ app.listen(PORT, () => {
  * then run:
  * node add.js 
  * 
+ * /git ignore\
+ * touch .gitignore
  * 
+ * Rule	        Meaning	                                          Example Use
+ * filename.txt	Ignures a specific file.	                      secrets.txt
+ * *.ext	    Ignures ALL files with this extension.            *.log (Ignores all log files)
+ * folder/	    Ignures an entire folder and everything in it.    node_modules/
+      #	Lines starting with # are comments.	# Ignore dependency folders
  * 
  * 
  * *******************************************/
